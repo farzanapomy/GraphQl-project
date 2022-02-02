@@ -3,26 +3,25 @@ const { ApolloServer, gql } = require('apollo-server-express');
 
 module.exports = gql`
    extend type Query{
-     getMusic:[Music]
+     getMusic:[NewMusic]
   }
 
-  input music{
+  input Music{
     title:String
     singer:String
     duration:Int
   }
 
-type Music{
-  id:ID
+type NewMusic{
+  _id:ID
   title:String
   singer:String
   duration:Int
-
 }
 
 
 extend type Mutation{
-    addMusic(input:music):Music
+    addMusic(input:Music):String
 }
 
 
