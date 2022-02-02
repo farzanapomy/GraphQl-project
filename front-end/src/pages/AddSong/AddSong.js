@@ -29,7 +29,7 @@ const AddSong = () => {
                 <input type="text" id='title' {...register("title")} />
                 <input type="text" id='singer' {...register("singer")} />
                 <input type="number" id='duration' {...register("duration")} />
-                <input type="submit" value="Add song" />
+                <input type="submit" value="Add new song" />
 
 
             </form>
