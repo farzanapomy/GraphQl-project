@@ -30,8 +30,12 @@ const AddSong = () => {
                 <input type="text" id='singer' {...register("singer")} />
                 <input type="number" id='duration' {...register("duration")} />
                 <input type="submit" value="Add new song" />
+<<<<<<< HEAD:client/src/pages/AddSong/AddSong.js
 
 
+=======
+                
+>>>>>>> c312fd4c43eb3cea6f5f7169f0e66524e8cf759c:front-end/src/pages/AddSong/AddSong.js
             </form>
 
         </>
