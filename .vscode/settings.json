@@ -1,0 +1,27 @@
+{
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#141420",
+    "terminal.foreground": "#f7f4f1",
+    "terminalCursor.background": "#ff9501",
+    "terminalCursor.foreground": "#ce00f7",
+    "terminal.ansiBlack": "#117799",
+    "terminal.ansiBlue": "#fcfcfc",
+    "terminal.ansiBrightBlack": "#c11cd6",
+    "terminal.ansiBrightBlue": "#2a9db4",
+    "terminal.ansiBrightCyan": "#26eea1",
+    "terminal.ansiBrightGreen": "#7700ff",
+    "terminal.ansiBrightMagenta": "#a17a92",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#fffafa",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#038b57",
+    "terminal.ansiGreen": "#55d427",
+    "terminal.ansiMagenta": "#000000",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#d3bb99",
+    "terminal.ansiYellow": "#e4d9c2"
+  }
+}
